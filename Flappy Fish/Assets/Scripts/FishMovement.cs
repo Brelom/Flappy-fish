@@ -29,7 +29,7 @@ public class FishMovement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D coll)
     {
-        // Restart
+        // Restart - for this time
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
